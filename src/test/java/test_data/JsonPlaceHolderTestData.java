@@ -24,10 +24,15 @@ public class JsonPlaceHolderTestData {
         return expectedDataMap;
     }
 
+    public String expectedDataInString(int userId, String title, boolean completed){//Dinamik expected data methodu: Json datayı String bir container olarak return ediyor.
+
+        String expectedData = " {\n" +
+                "                 \"userId\": "+userId+",\n" +
+                "                 \"title\": \""+title+"\",\n" +
+                "                 \"completed\": "+completed+"\n" +
+                "               }";
 
 
-
-
-
-
+        return expectedData;
+    }
 }
