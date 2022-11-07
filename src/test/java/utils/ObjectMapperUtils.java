@@ -27,8 +27,4 @@ public class ObjectMapperUtils {
 
         return javaResult;
     }
-
-
-
-
 }
